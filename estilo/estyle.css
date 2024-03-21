@@ -31,3 +31,31 @@ section#telefone{
     width: 311px;
     background: url(../imagens/frame-iphone.png) no-repeat;
 }
+
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 267px;
+    height: 471px;
+
+}
+
+section#redes-sociais{
+    
+}
+
+section#redes-sociais img{
+    margin: 10px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.233);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover{
+    box-shadow: 2px 4px 10px black;
+    border: .5px solid rgb(255, 255, 255);
+    transform: translate(5px, -5px );
+    transition: transform .5s, border 1s ;
+}
